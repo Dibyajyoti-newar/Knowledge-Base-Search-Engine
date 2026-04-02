@@ -1,16 +1,72 @@
-# React + Vite
+#  Knowledge-Base Search Engine (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React-based user interface** for the local **Retrieval-Augmented Generation (RAG)** system.  
+It provides a sleek, intuitive experience for uploading documents, ingesting text, and querying your customized knowledge base.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Features
 
-## React Compiler
+- **Interactive Chat Interface**: Ask complex questions and receive AI-generated answers in real time  
+- **Multi-Modal Uploads**: Upload PDFs or paste raw text with custom source names  
+- **Source Citations**: Clear source "pills" showing which data the AI used  
+- **Responsive Feedback**: Smooth loading states, transitions, and error handling  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework**: React (with Vite for fast development)  
+- **Styling**: Vanilla CSS (`App.css`, `index.css`)  
+- **State Management**: React Hooks (`useState`, `useEffect`)  
+
+---
+
+##  Prerequisites
+
+- Node.js (v16 or higher recommended)  
+- npm (comes with Node.js)  
+- Backend API (FastAPI server must be running)  
+
+---
+
+##  Setup Instructions
+
+### 1️. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 2️. Start Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+### 3️. Open Application
+
+Open your browser and go to:
+
+```plaintext
+http://localhost:5173
+```
+
+---
+
+##  Connection Note
+
+- This frontend connects to backend at:  
+   http://127.0.0.1:8000  
+
+- If you see errors like:
+  - "Network Error"  
+  - "Failed to fetch"  
+
+ Make sure your **FastAPI backend is running** in another terminal  
+
+---
