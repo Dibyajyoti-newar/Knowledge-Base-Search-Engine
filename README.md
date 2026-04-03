@@ -1,10 +1,11 @@
 #  Knowledge-Base Search Engine
 
 A full-stack **Retrieval-Augmented Generation (RAG)** platform that allows users to ingest PDFs and raw text into a local vector database, ask complex questions, and receive AI-synthesized answers backed by precise source citations.
-
+<img width="1047" height="746" alt="Screenshot 2026-04-03 102436" src="https://github.com/user-attachments/assets/e4ddb859-78e0-4d64-ac08-b8091334c4ea" />
 ---
 
 ##  Demo Video
+
 
  [Watch the full application in action here](https://drive.google.com/file/d/1DyVJB8L91rOwAYnDbga1qv16XxM-xxnW/view?usp=sharing)
 
